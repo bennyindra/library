@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+      file: liquibase/changelog/init.sql
+      relativeToChangelogFile: false
+  - include:
+      file: liquibase/changelog/insert.sql
+      relativeToChangelogFile: false
